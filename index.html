@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>Federico Costantino - Cátedra PWA</title>
+</head>
+<body>
+
+	<div class="card">
+		<div class="search">
+			<input type="text" class="inputValue" placeholder="Ingresá una ciudad">
+			<button class="button"><img src="images/search.png"></button>
+		</div>
+		<div class="weather">
+			<h2 class="ciudad"></h2>
+			<h1 class="temperatura"></h1>
+			<div class="flex">
+				<img class="iconoClima" />
+				<div class="descripcion"></div>
+			</div>
+			<div class="sensacionTermica"></div>
+			<div class="temperaturaMaxima"></div>
+			<div class="temperaturaMinima"></div>
+			<div class="humedad"></div>
+			<div class="presion"></div>
+			<div class="velocidadViento"></div>
+			<div class="mapa">
+				<iframe class="iframe" 
+					width="100%"
+					height="100%"
+					frameborder="0" style="border:0"
+					src=""
+					allowfullscreen>
+				</iframe>
+			</div>
+		</div>
+	</div>
+
+
+	
+
+
+
+	<script src="js/openWeatherMap.js"></script>
+
+</body>
+</html>
